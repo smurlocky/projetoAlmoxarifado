@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomePageComponent } from './home-page/home-page.component';
+import { ProductPageComponent } from './product-page/product-page.component';
 import { LoginScreenComponent } from './login-screen/login-screen.component';
-import { AppComponent } from './app.component';
 
 const routes: Routes = [
   {
@@ -11,8 +12,13 @@ const routes: Routes = [
   },
   {
     path: "home",
-    component: AppComponent,
+    component: HomePageComponent,
     title: "Tela principal"
+  },
+  {
+    path: "productPage",
+    component: ProductPageComponent,
+    title: "product page"
   }
 ];
 
