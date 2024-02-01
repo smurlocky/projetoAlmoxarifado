@@ -10,6 +10,7 @@ import { LoginScreenComponent } from './login-screen/login-screen.component';
 import { PoPageLoginModule } from '@po-ui/ng-templates';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ProductPageComponent } from './product-page/product-page.component';
+import { PoPageDynamicTableModule } from '@po-ui/ng-templates';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ProductPageComponent } from './product-page/product-page.component';
     PoPageLoginModule,
     FormsModule,
     HttpClientModule,
+    PoPageDynamicTableModule,
     RouterModule.forRoot([])
   ],
   providers: [],

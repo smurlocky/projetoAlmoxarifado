@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-page.component.css']
 })
 export class ProductPageComponent {
+addItem() {
+throw new Error('Method not implemented.');
+}
 
 }
